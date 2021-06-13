@@ -3,12 +3,12 @@ name = "ittyr"
 version = "0.1.0"
 authors = ["Evan Pratten <ewpratten@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A Linux client for reading news from the Internet Teletype sevrice"
+readme = "README.md"
+license-file = "LICENSE"
 
 [dependencies]
 clap = "2.33.3"
-ffmpeg-next = "4.3.8"
 url = "2.2.2"
 colored = "2.0.0"
 nix = "0.21.0"
